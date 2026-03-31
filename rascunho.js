@@ -72,3 +72,29 @@ var senha1 =234234
 var senha2 = 24523523523
 var senha = senha1 === senha2
 console.log(`As senhas são iguais? ${senha}`)
+
+var temLogin = true
+var temSenha = true
+var acessoPermitido = temLogin && temSenha
+console.log(`O acesso é permitido? ${acessoPermitido}`)
+
+var numero1 = 8
+var numero2 = 10
+console.log(`O numero ${numero1} e numero ${numero2} são pares? ${numero1 % 2 === 0 && numero2 % 2 === 0}`)
+
+var disponivel = true
+console.log(`Disponível? ${disponivel}`)
+console.log(`Não disponível? ${!disponivel}`)
+
+var porcentagem = 0.15
+var valor = 120
+var valorDescontado = valor - (valor * porcentagem)
+var totaldesconto = valor - valorDescontado
+console.log(`O valor do desconto é de ${totaldesconto}`)
+
+var totalAulas = 4
+var faltas = 2
+var limiteFaltas = totalAulas * 0.25
+console.log(`O limite de faltas permitido é: ${limiteFaltas}`)
+console.log(`As faltas ultrapassam o limite? ${faltas > limiteFaltas}`)
+
