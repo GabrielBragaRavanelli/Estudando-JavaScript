@@ -46,9 +46,9 @@ const salarіо = 2000;
 if(salario >= 11000){
     console.log("3% de bônus" )
 } else if(salario < 11000 && salrio >= 7000){
-    console.log("5% de bônus ")
+    console.log("5% de bônus")
 } else if(salario < 7000 && salrio >= 4000){
-    console.log("7% de bônus  ")
+    console.log("7% de bônus")
 } else{
-    console.log("9% de bônus  ")
+    console.log("9% de bônus")
 }
