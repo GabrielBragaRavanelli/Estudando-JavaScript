@@ -88,16 +88,16 @@ console.log(recebeBonus);
 //     pessoa usuária premium tem acesso a todas as funções
 //     pessoa usuária super premium tem acesso total e bônus especiais
 
-const user=  `premium`
+const tipoUsuario=  `premium`
 
-switch(user){
+switch(tipoUsuario){
     case  `free`:
         console.log("Acesso limitado");
         break;
     case `premium`:
         console.log("Acesso total ao app");
         break;
-    case `super premium `:
+    case `super premium`:
         console.log("Acesso total ao app e bônus");
         break;
     default:
@@ -121,7 +121,7 @@ for(let i = 1; i <= 30; i++){
         continue;
     }
     conta++;
-};
+}
 console.log(conta);
 
 // Gerar um laço que tente "adivinhar" um dado número de 1 a 50
@@ -290,3 +290,46 @@ const filteredCpfs = cpfs.map(cpf => {
     }
 });
 console.log(filteredCpfs);
+
+//OBJETOS
+
+const pessoa = {
+    nome: 'Roberta R',
+    nascimento: '2020-01-01',
+    cpf: '23445667889',
+    pontuacao: 4576,
+    trofeus: ['speedrunner', 'indie']
+};  
+
+console.log(pessoa.nome);
+console.log(pessoa.trofeus[0]);
+
+delete pessoa.cpf;
+console.log(pessoa);
+
+function exibeTrofeus(obj){
+    for(const trofeus of obj){
+        console.log(`tem o trofeu ${trofeus}`)
+    }
+}
+
+exibeTrofeus(pessoa.trofeus);
+
+
+// adicione ao obj um método para calcular a idade da pessoa e retornar o valor no terminal como string.
+
+const user={
+    nome: 'Roberta R',
+    nascimento: '1996-01-01',
+    cpf: '23445667889',
+    pontuacao: 4576,
+    trofeus: ['speedrunner', 'indie']
+};
+
+user.calculaIdade = function calculaIdade(){
+    const anoNascimento = parseInt(this.nascimento.slice(0,4));
+    const idade = new Date().getFullYear() - anoNascimento;
+    console.log(`A idade de ${this.nome} é ${idade} anos.`);
+}
+
+user.calculaIdade();
