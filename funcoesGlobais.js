@@ -5,7 +5,7 @@ function saudacao(){
 //setTimeout é uma função do JavaScript que permite agendar a execução de uma função depois de um determinado tempo, em milissegundos. No caso, estamos passando a função saudacao como primeiro argumento e o tempo de 2000 milissegundos (2 segundos) como segundo argumento. Depois de 2 segundos, a função saudacao será executada e a mensagem será mostrada no console.
 //1s - 1000ms 2-2000ms
 setTimeout(saudacao, 2000)
-//le vair esperar 2seg para executar a função saudacao, ou seja, para mostrar a mensagem "e ae, beleza?" no console. O setTimeout é uma função do JavaScript que permite agendar a execução de uma função depois de um determinado tempo, em milissegundos. No caso, estamos passando a função saudacao como primeiro argumento e o tempo de 2000 milissegundos (2 segundos) como segundo argumento. Depois de 2 segundos, a função saudacao será executada e a mensagem será mostrada no console.
+//ele vai esperar 2seg para executar a função saudacao, ou seja, para mostrar a mensagem "e ae, beleza?" no console. O setTimeout é uma função do JavaScript que permite agendar a execução de uma função depois de um determinado tempo, em milissegundos. No caso, estamos passando a função saudacao como primeiro argumento e o tempo de 2000 milissegundos (2 segundos) como segundo argumento. Depois de 2 segundos, a função saudacao será executada e a mensagem será mostrada no console.
 
 
 let contador = 0
