@@ -17,4 +17,27 @@ console.log("A multiplicação do numero1 com numero2, é igual a: " + (numero1 
 
 console.log("A subtração do numero1 menos o numero2 é " + (numero1 - numero2))
 
-console.log("O resultado dessa equação é: " + (numero1 + numero2) + (numero1 *numero2) + (numero1 / numero2) + (numero1 - numero2))
+console.log("O resultado dessa equação é: " + ((numero1 + numero2) + (numero1 *numero2) + (numero1 / numero2) + (numero1 - numero2))) 
+
+console.log ("O resultado desta equação é: " + ((numero1 * numero2) + (numero1 + numero2)))
+
+console.log ("Resolva essa conta: " +(((numero1 + numero2) + (numero1 / numero2)) + ((numero1 * numero2) + (numero1 - numero2))))
+
+const numero3 = 5
+const numero4 = 10
+const numero5 = 8
+
+console.log("A sua media é  " + (numero3 + numero4 + numero5) / 3)
+
+const salario = 3000
+const aluguel = 1500
+const luz = 100
+const agua = 150
+
+const sobra =  salario - (aluguel + luz + agua )
+console.log(sobra)
+
+
+
+
+
