@@ -37,6 +37,13 @@ const agua = 150
 const sobra =  salario - (aluguel + luz + agua )
 console.log(sobra)
 
+console.log("O seu sálario terá um aumento de 20% a partir do mês que vem")
+console.log("Qyanto eu vou receber agora?")
+
+const aumento = salario * 1.20
+console.log("Fiz as contas e, a partir do próximo mês eu vou receber " + aumento + " reais.")
+
+
 
 
 

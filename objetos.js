@@ -50,3 +50,17 @@ const entradas = Object.entries(pessoa2);
 console.log("chaves:", chaves);
 console.log("valores:", valores);
 console.log("entradas:", entradas);
+
+const individuo = {
+    nomeCompleto: "gabriel " ,
+    idade: 23,
+    CNH: false,
+    estadoCivil: "solteiro"
+}
+
+individuo.sobrenome = [" braga"]
+individuo.sobrenome.push(" Ravanelli")
+console.log(individuo.nomeCompleto + individuo.sobrenome)
+delete individuo.CNH
+
+console.log("Me chamo " + individuo.nomeCompleto + individuo.sobrenome + " , tenho" + individuo.idade + " , meu estado civil é " + individuo.estadoCivil)
