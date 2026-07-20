@@ -22,8 +22,9 @@ let jacare = 1
 while(jacare <= 10){
     console.log("número atual: " + jacare)
     jacare++
-}
-// o while verefica e fepois executa, ou seja, ele verifica a condição antes de executar o bloco de código. No exemplo acima, se jacare fosse inicializado com um valor maior que 10, o while não executaria nada, enquanto o do while executaria o bloco de código uma vez.
+} 
+
+// o while verefica e depois executa, ou seja, ele verifica a condição antes de executar o bloco de código. No exemplo acima, se jacare fosse inicializado com um valor maior que 10, o while não executaria nada, enquanto o do while executaria o bloco de código uma vez.
 //não pode esqueceer do jacare++ para evitar um loop infinito, ou seja, um loop que nunca termina porque a condição de parada nunca é atingida. No exemplo acima, se esquecermos de incrementar jacare, ele sempre será igual a 1 e a condição jacare <= 10 será sempre verdadeira, resultando em um loop infinito.
 
 let pato = 0

@@ -18,3 +18,14 @@ console.log("meu aniversário é dia " + dataAniversario + " e minha idade é  "
 
 let idadeAtual = 22;
 console.log("Minha idade atual é " + idadeAtual);
+
+let pai = 64
+let mae = 58
+console.log ("O meu pai tem " + pai + " e minha mãe tem " +  mae);
+
+let salario = 1500
+let gastos = 1100
+
+const sobra = salario - gastos
+console.log("Atualmente, estou ganhando " + salario + " reais, e acabei gastando " + gastos + " reais neste mês. Dessa forma, sobrou " + sobra + " reais para gastar neste mês")
+

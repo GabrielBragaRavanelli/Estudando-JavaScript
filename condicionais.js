@@ -33,3 +33,31 @@ notadoAluno >= 9 ? console.log("Excelente nota") :
             console.log("Reprovado")
 
 
+
+const nota1 = 9
+const nota2 = 6
+const nota3 = 5
+
+const media = (nota1 + nota2 + nota3) / 3
+
+if (media >= 9){
+    console.log("Excelenete semestre")
+} else if (media >= 7){
+    console.log("Bom semestre")
+} else if (media >= 6){
+    console.log("Semestre razoável")
+} else if (media >= 5){
+    console.log("O aluno será designado a dependência")
+} else {
+    console.log("Reprovado")
+}
+    
+media >= 9 ? console.log ("Excelenete semestre "):
+    media >= 7 ? console.log ("Bom semestre"):
+        media >= 6 ? console.log ("Semestre razoável"):
+            media >= 5 ? console.log ("O aluno será designado a dependência"):
+                console.log ("Reprovado")
+
+
+
+

@@ -29,4 +29,3 @@ if(idade >= null)
 //undefined
 //
 //NaN (Not a Number)
-
