@@ -33,5 +33,27 @@ console.log("Meu irmão é maior de idade?" + idadeIrmaoMaiorDeIdade)
 console.log("Minha idade é diferente da do meu irmão?" + idadeDiferente)
 
 
+const idadegabriel = 23
+const idadeluca = 27
+const idadeana = 22
+const idadeluis = 23
+
+const compara1 = idadegabriel >= idadeluis
+console.log("Eu tenho a idade maior ou igual a do meu amigo? " + compara1 )
+
+const compara2 = idadegabriel > idadeluis
+console.log("Eu tenho a idade maior que meu amigo? " + compara2 )
+
+const compara3 = idadeana < idadeluis
+console.log("A idade da Ana é menor que a idade do Luis? " + compara3)
+
+const compara4 = idadegabriel == idadeluca
+console.log("A minha idade é igual a do meu irmão? " + compara4)
+
+const compara5 = idadegabriel == idadeluis
+console.log("A minha idade é igual a do meu amigo? " + compara5)
+
+const compara6 = idadeana < idadeluca 
+console.log("A idade da Ana é menor do que a do meu irmão? " + compara6)
 
 
