@@ -98,3 +98,19 @@ var limiteFaltas = totalAulas * 0.25
 console.log(`O limite de faltas permitido é: ${limiteFaltas}`)
 console.log(`As faltas ultrapassam o limite? ${faltas > limiteFaltas}`)
 
+let num = 7
+if (num % 2 === 0){
+console.log("par")
+} else {
+cosnole.log("impar')
+}
+
+let nota1 = 7
+let nota2 = 5
+const media = (nota1 + nota2) / 2
+if (media >=6){
+console.log("Aprovado")
+} else { 
+console.log("Reprovado")
+
+
